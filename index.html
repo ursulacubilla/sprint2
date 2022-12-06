@@ -12,22 +12,23 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg mt-3">
+        <nav class="navbar navbar-expand-lg mt-3 mw-100">
             <div class="container-fluid ps-5">
-                <a class="navbar-brand" href="#">
-                        <img src="./Recursos projecte sprint 2-20221129/Imagenes/logo-bookmark.svg" alt=""> 
+                <a class="navbar-brand mt-4 ms-4 ps-4" href="#">
+                    <img src="./Recursos projecte sprint 2-20221129/Imagenes/logo-bookmark.svg" alt="">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
                     aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse justify-content-end pt-4 pe-5 position-relative" id="navbarNavAltMarkup">
+                <div class="collapse navbar-collapse justify-content-end pt-4 pe-5 position-relative me-5"
+                    id="navbarNavAltMarkup">
                     <div class="navbar-nav">
-                        <a class="nav-link pe-5" aria-current="page" href="#">FEATURES</a>
-                        <a class="nav-link pe-5" href="#">PRICING</a>
-                        <a class="nav-link pe-5" href="#">CONTACT</a>
-                        <button type="button" class="btn btn-danger">LOGIN</button>
+                        <a class="nav-link active pe-5 me-2 fw-normal" href="#">FEATURES</a>
+                        <a class="nav-link active pe-5 ms-3 me-2" href="#">PRICING</a>
+                        <a class="nav-link active pe-5 ms-3 me-2" href="#">CONTACT</a>
+                        <button type="button" class="btn btn-danger ps-4 pe-4 shadow">LOGIN</button>
                     </div>
                 </div>
             </div>
@@ -35,21 +36,74 @@
     </header>
 
     <main>
-            <div class="container">
-                    <div class="row mt-5">
-                      <div class="col mt-5 pt-5">
-                        <p class="fw-bold fs-1">A Simple Bookmark Manager</p>
-                        <p class="text-muted">A clean and simple interface to organize your favourite websites. open a new browser tab and see your sities load instantly. Try it for free.</p>
-                        <br />
-        
-                            <button type="button" class="btn btn-primary me-2" id="primary">Get it on Chrome</button>
-                            <button type="button" class="btn btn-secondary" id="secondary">Get it on Firefox</button>
-                      </div>
+        <div class="container">
+            <div class="row mt-5">
+                <div class="col mt-5 pt-5 ms-3 ps-3">
+                    <h1 class="fw-bold fs-1">A Simple Bookmark Manager</h1>
+                    <p class="text-muted lead light">A clean and simple interface to organize your favourite websites.
+                        Open a new
+                        browser tab and see your sites load instantly. Try it for free.</p>
+                    <br />
 
-                      <div class="col ps-5 ms-5 mt-5">
-                        <img src="./Recursos projecte sprint 2-20221129/Imagenes/illustration-hero.svg" alt="">
-                      </div>
+                    <button type="button" class="btn btn-primary me-2 shadow" id="primary">Get it on Chrome</button>
+                    <button type="button" class="btn btn-secondary shadow" id="secondary">Get it on Firefox</button>
+                </div>
+
+                <div class="col ps-5 ms-5 mt-5">
+                    <img src="./Recursos projecte sprint 2-20221129/Imagenes/illustration-hero.svg" alt="">
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 offset-md-3">
+                        <h1 class="fw-bold fs-1">Features</h1>
+                        <p class="text-muted lead light">Our aim is to make       it quick and easy for you to access your
+                            favourite websites. Your boorkmarks sync between your devices so you can access them on the
+                            go.</p>
                     </div>
+                </div>
+            </div>
+
+            <ul class="nav nav-tabs mt-5" id="myTab" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active text-dark" id="home-tab" data-bs-toggle="tab" data-bs-target="#home"
+                        type="button" role="tab" aria-controls="home" aria-selected="true">Simple Bookmarking</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link text-secondary" id="profile-tab" data-bs-toggle="tab"
+                        data-bs-target="#profile" type="button" role="tab" aria-controls="profile"
+                        aria-selected="false">Speedy Searching</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link text-secondary" id="contact-tab" data-bs-toggle="tab"
+                        data-bs-target="#contact" type="button" role="tab" aria-controls="contact"
+                        aria-selected="false">Easy Sharing</button>
+                </li>
+            </ul>
+            <div class="tab-content" id="myTabContent">
+                <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col mt-5 pt-3 col-6">
+                                <img src="./Recursos projecte sprint 2-20221129/Imagenes/illustration-features-tab-1.svg"
+                                    alt="">
+                            </div>
+                            <div class="col-5 mt-5 pt-5 ms-3 ps-3 me-5 pe-5">
+                                <h1 class="fw-bold fs-1 mt-4 pt-2">Bookmark in one click</h1>
+                                <p class="text-muted lead light mt-4">Organize your bookmarks however you like. Our
+                                    simple
+                                    drag-and-drop interface gives you complete control over how you manage your
+                                    favourite sites.</p>
+                                <button type="button" class="btn btn-secondary shadow mt-4" id="secondary">More
+                                    info</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">...</div>
+                <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">...</div>
+            </div>
     </main>
 
 
