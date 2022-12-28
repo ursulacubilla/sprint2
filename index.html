@@ -12,7 +12,7 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg mt-3 mw-100">
+        <nav class="navbar navbar-expand-lg mt-3 mw-100" id="nav-bar">
             <div class="container-fluid ps-5">
                 <a class="navbar-brand mt-4 ms-4 ps-4" href="#">
                     <img src="./Recursos projecte sprint 2-20221129/Imagenes/logo-bookmark.svg" alt="">
@@ -22,10 +22,10 @@
                     aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse justify-content-end pt-4 pe-5 position-relative me-5"
+                <div class="collapse navbar-collapse justify-content-end pt-3 pe-5 position-relative me-5"
                     id="navbarNavAltMarkup">
                     <div class="navbar-nav">
-                        <a class="nav-link active pe-5 me-2 fw-normal" href="#">FEATURES</a>
+                        <a class="nav-link active pe-5 ms-3 me-2 fw-normal" href="#">FEATURES</a>
                         <a class="nav-link active pe-5 ms-3 me-2" href="#">PRICING</a>
                         <a class="nav-link active pe-5 ms-3 me-2" href="#">CONTACT</a>
                         <button type="button" class="btn btn-secondary ps-4 pe-4 shadow">LOGIN</button>
@@ -37,8 +37,8 @@
 
     <main>
         <div class="container">
-            <div class="row mt-5">
-                <div class="col mt-5 pt-5 ms-3 ps-3">
+            <div class="row mt-5" id="containerOne">
+                <div class="col mt-5 pt-5 ms-3 ps-3 centrar">
                     <h1 class="fw-bold fs-1">A Simple Bookmark Manager</h1>
                     <p class="text-muted lead light">A clean and simple interface to organize your favourite websites.
                         Open a new
@@ -49,7 +49,7 @@
                     <button type="button" class="btn btn-secondary shadow" id="secondary">Get it on Firefox</button>
                 </div>
 
-                <div class="col ps-5 ms-5 mt-5">
+                <div class="col ps-5 ms-5 mt-2">
                     <img src="./Recursos projecte sprint 2-20221129/Imagenes/illustration-hero.svg" alt="">
                 </div>
             </div>
@@ -66,23 +66,25 @@
                 </div>
             </div>
             <div class="container">
-                <ul class="nav nav-tabs mt-5" id="myTab" role="tablist">
-                    <li class="nav-item" role="presentation">
-                        <button class="nav-link active text-dark" id="home-tab" data-bs-toggle="tab"
-                            data-bs-target="#home" type="button" role="tab" aria-controls="home"
-                            aria-selected="true">Simple Bookmarking</button>
-                    </li>
-                    <li class="nav-item" role="presentation">
-                        <button class="nav-link text-secondary" id="profile-tab" data-bs-toggle="tab"
-                            data-bs-target="#profile" type="button" role="tab" aria-controls="profile"
-                            aria-selected="false">Speedy Searching</button>
-                    </li>
-                    <li class="nav-item" role="presentation">
-                        <button class="nav-link text-secondary" id="contact-tab" data-bs-toggle="tab"
-                            data-bs-target="#contact" type="button" role="tab" aria-controls="contact"
-                            aria-selected="false">Easy Sharing</button>
-                    </li>
-                </ul>
+                <div class="w-75">
+                    <ul class="nav nav-tabs mt-5" id="myTab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link active text-dark" id="home-tab" data-bs-toggle="tab"
+                                data-bs-target="#home" type="button" role="tab" aria-controls="home"
+                                aria-selected="true">Simple Bookmarking</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link text-secondary" id="profile-tab" data-bs-toggle="tab"
+                                data-bs-target="#profile" type="button" role="tab" aria-controls="profile"
+                                aria-selected="false">Speedy Searching</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link text-secondary" id="contact-tab" data-bs-toggle="tab"
+                                data-bs-target="#contact" type="button" role="tab" aria-controls="contact"
+                                aria-selected="false">Easy Sharing</button>
+                        </li>
+                    </ul>
+                </div>
                 <div class="tab-content" id="myTabContent">
                     <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
                         <div class="container">
@@ -119,97 +121,135 @@
                         </div>
                     </div>
                 </div>
-                <div class="row ms-5 ps-5">
-                    <div class="col-sm-3 shadow p-3 mb-5 bg-body rounded mt-2">
-                        <div class="card-body">
-                            <span>
-                                <img src="./Recursos projecte sprint 2-20221129/Imagenes/logo-chrome.svg"
-                                    class="ps-5 ms-4 mb-5" alt="">
-                            </span>
-                            <h5 class="card-title fs-4 fw-bold text-center">Add to Chrome</h5>
-                            <p class="card-text pb-5 text-muted lead light fs-6 text-center">Minimun version 62</p>
-                            <button class="btn btn-primary">
-                                Add & Install Extension
-                            </button>
+                <div class="container ps-5 ms-5">
+                    <div class="row ms-5 ps-5 w-75">
+                        <div class="col-sm-3 shadow p-3 mb-5 bg-body rounded mt-2 w-25">
+                            <div class="card-body">
+                                <span>
+                                    <img src="./Recursos projecte sprint 2-20221129/Imagenes/logo-chrome.svg"
+                                        class="ps-5 ms-4 mb-5" alt="">
+                                </span>
+                                <h5 class="card-title fs-4 fw-bold text-center">Add to Chrome</h5>
+                                <p class="card-text pb-5 text-muted lead light fs-6 text-center">Minimun version 62</p>
+                                <button class="btn btn-primary">
+                                    Add & Install Extension
+                                </button>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-sm-3 shadow p-3 mb-4 bg-body rounded ms-4 mt-4">
-                        <div class="card-body">
-                            <img src="./Recursos projecte sprint 2-20221129/Imagenes/logo-firefox.svg"
-                                class="ps-5 ms-4 mb-5" alt="">
-                            <h5 class="card-title fs-4 fw-bold text-center">Add to Firefox</h5>
-                            <p class="card-text pb-5 text-muted lead light fs-6 text-center">Minimun version 55</p>
-                            <button class="btn btn-primary">
-                                Add & Install Extension
-                            </button>
-                        </div>
-                    </div>
-                    <div class="col-sm-3 shadow p-3 mb-3 bg-body rounded ms-4 mt-5">
-                        <div class="card-body">
-                            <span class="card-img">
-                                <img src="./Recursos projecte sprint 2-20221129/Imagenes/logo-opera.svg"
+                        <div class="col-sm-3 shadow p-3 mb-4 bg-body rounded ms-4 mt-4 w-25">
+                            <div class="card-body">
+                                <img src="./Recursos projecte sprint 2-20221129/Imagenes/logo-firefox.svg"
                                     class="ps-5 ms-4 mb-5" alt="">
-                            </span>
-                            <h5 class="card-title fs-4 fw-bold text-center">Add to Opera</h5>
-                            <p class="card-text pb-5 text-muted lead light fs-6 text-center">Minimun version 46</p>
-                            <button class="btn btn-primary">
-                                Add & Install Extension
-                            </button>
+                                <h5 class="card-title fs-4 fw-bold text-center">Add to Firefox</h5>
+                                <p class="card-text pb-5 text-muted lead light fs-6 text-center">Minimun version 55</p>
+                                <button class="btn btn-primary">
+                                    Add & Install Extension
+                                </button>
+                            </div>
+                        </div>
+                        <div class="col-sm-3 shadow p-3 mb-3 bg-body rounded ms-4 mt-5 w-25">
+                            <div class="card-body">
+                                <span class="card-img">
+                                    <img src="./Recursos projecte sprint 2-20221129/Imagenes/logo-opera.svg"
+                                        class="ps-5 ms-4 mb-5" alt="">
+                                </span>
+                                <h5 class="card-title fs-4 fw-bold text-center">Add to Opera</h5>
+                                <p class="card-text pb-5 text-muted lead light fs-6 text-center">Minimun version 46</p>
+                                <button class="btn btn-primary">
+                                    Add & Install Extension
+                                </button>
+                            </div>
                         </div>
                     </div>
                 </div>
+
             </section>
 
-             
-                    <div class="container">
-                            <div class="row pt-5 mt-5 mb-4">
-                                <div class="col-lg-5 offset-md-3 pt-4 mb-5 pb-5">
-                                    <h1 class="fw-bold fs-4 text-center">Frequently Asked Questions</h1>
-                                    <p class="text-muted lead light text-center">Here are some of our FAQs. If you have any other questions you´d like answered please feel free to email us.</p>
-                                </div>
-                            </div>
-                        </div>    
-                        <br />    
-                <div class="accordion accordion-flush w-50 position-absolute start-50 translate-middle mb-5" id="accordionFlushExample">
-                        
-                                <div class="accordion-item">
-                                  <h2 class="accordion-header" id="flush-headingOne">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                                      Accordion Item #1
-                                    </button>
-                                  </h2>
-                                  <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
-                                  </div>
-                                </div>
-                                <div class="accordion-item">
-                                  <h2 class="accordion-header" id="flush-headingTwo">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                                      Accordion Item #2
-                                    </button>
-                                  </h2>
-                                  <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-                                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
-                                  </div>
-                                </div>
-                                <div class="accordion-item">
-                                  <h2 class="accordion-header" id="flush-headingThree">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                                      Accordion Item #3
-                                    </button>
-                                  </h2>
-                                  <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-                                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
-                                  </div>
-                    
-                              </div>
 
-                        <button type="button" class="btn btn-secondary shadow mt-5 position-absolute start-50 translate-middle" id="secondary">More info
+            <div class="container">
+                <div class="row pt-5 mt-5 mb-4">
+                    <div class="col-lg-5 offset-md-3 pt-4 mb-5 pb-5">
+                        <h1 class="fw-bold fs-4 text-center">Frequently Asked Questions</h1>
+                        <p class="text-muted lead light text-center">Here are some of our FAQs. If you have any other
+                            questions you´d like answered please feel free to email us.</p>
+                    </div>
+                </div>
+            </div>
+            <br />
+            <div class="accordion accordion-flush w-50 position-absolute start-50 translate-middle mb-5"
+                id="accordionFlushExample">
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingOne">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                            What is Bookmark?
                         </button>
-                        <br />
-                      </div>
-            
-        </main>
+                    </h2>
+                    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Placeholder content for this accordion, which is intended to
+                            demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion
+                            body.</div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                            How can I request a new browser?
+                        </button>
+                    </h2>
+                    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Placeholder content for this accordion, which is intended to
+                            demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion
+                            body. Let's imagine this being filled with some actual content.</div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseThree" aria-expanded="false"
+                            aria-controls="flush-collapseThree">
+                            Is there a mobile app?
+                        </button>
+                    </h2>
+                    <div id="flush-collapseThree" class="accordion-collapse collapse"
+                        aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Placeholder content for this accordion, which is intended to
+                            demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion
+                            body. Nothing more exciting happening here in terms of content, but just filling up the
+                            space to make it look, at least at first glance, a bit more representative of how this would
+                            look in a real-world application.</div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-heading">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapse" aria-expanded="false" aria-controls="flush-collapse">
+                            What about other Chromium browsers?
+                        </button>
+                    </h2>
+                    <div id="flush-collapse" class="accordion-collapse collapse" aria-labelledby="flush-heading"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Placeholder content for this accordion, which is intended to
+                            demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion
+                            body. Nothing more exciting happening here in terms of content, but just filling up the
+                            space to make it look, at least at first glance, a bit more representative of how this would
+                            look in a real-world application.</div>
+                    </div>
+                </div>
+                <div class="mt-3">
+                    <button type="button"
+                        class="btn btn-secondary shadow mt-5 position-absolute start-50 translate-middle"
+                        id="secondary">More info
+                    </button>
+                    <br />
+                </div>
+            </div>
+
+    </main>
 
     <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js">
     </script>
