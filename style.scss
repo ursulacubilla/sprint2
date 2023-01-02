@@ -1,29 +1,66 @@
 
 $nav-link-padding-y: 1rem;
 $nav-link-padding-x: 3rem;
-$nav-tabs-border-color: grey;
+$nav-tabs-border-color: rgb(182, 180, 180);
 $nav-tabs-link-active-color: black;
-$nav-tabs-border-width: .1rem;
-$nav-tabs-link-hover-border-color: white;
-$nav-tabs-link-active-border-color: red white red;
-$border-bottom: 1rem solid grey;
+$nav-pills-link-active-bg: black;
+$nav-tabs-border-width: .2rem;
+$nav-tabs-link-hover-border-color: transparent white red;
+$nav-tabs-link-active-border-color: transparent white red;
+
+
+
 @import "./main.scss";
 @import "./node_modules/bootstrap/scss/bootstrap.scss";
 
 
 @include media-breakpoint-between(None, md) {
-  #containerOne {
-    width: 70%;
-    display: flex;
-    flex-direction: column-reverse;
-    align-content: center;
-    align-items: center;
-  }
-  .centrar {
-    
-  }
   #nav-bar {
     display: flex;
    
   }
+  .lead {
+    font-size: 1.70rem;
+    font-weight: 300;
+}
+.h1-grande {
+  font-size: 3rem !important;
+}
+  .container {
+    padding: 0;
+    margin: 0;
+  }
+  #imgOne {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  .imagenOne {
+    width: 520px;
+    margin-top: 15px;
+  }
+  #containerOne {
+    width: 500px;
+    display: flex;
+    flex-direction: column-reverse;
+    margin-left: 50px;
+  }
+  .centrar {
+    padding-left: 0 !important;
+    margin-left: 0 !important;
+    text-align: center;    
+  }
+  #buttons-one {
+    width: auto;
+    height: auto;
+  }
+  #primary {
+    width: 13rem !important;
+    height: 4rem !important;
+    font-size: 1.3rem !important;
+  }
+  
+  // #containerTwo {
+  //   width: 70%;
+  //   display: flex;
+  // }
 }

@@ -3965,13 +3965,13 @@ fieldset:disabled .btn {
 }
 
 .nav-tabs {
-  --bs-nav-tabs-border-width: 0.1rem;
-  --bs-nav-tabs-border-color: grey;
+  --bs-nav-tabs-border-width: 0.2rem;
+  --bs-nav-tabs-border-color: #b6b4b4;
   --bs-nav-tabs-border-radius: 0.375rem;
-  --bs-nav-tabs-link-hover-border-color: white;
+  --bs-nav-tabs-link-hover-border-color: transparent white red;
   --bs-nav-tabs-link-active-color: black;
   --bs-nav-tabs-link-active-bg: #fff;
-  --bs-nav-tabs-link-active-border-color: red white red;
+  --bs-nav-tabs-link-active-border-color: transparent white red;
   border-bottom: var(--bs-nav-tabs-border-width) solid var(--bs-nav-tabs-border-color);
 }
 
@@ -4010,7 +4010,7 @@ fieldset:disabled .btn {
 .nav-pills {
   --bs-nav-pills-border-radius: 0.375rem;
   --bs-nav-pills-link-active-color: #fff;
-  --bs-nav-pills-link-active-bg: #5265E1;
+  --bs-nav-pills-link-active-bg: black;
 }
 
 .nav-pills .nav-link {
@@ -11964,8 +11964,32 @@ fieldset:disabled .btn {
 }
 
 @media (max-width: 767.98px) {
+  #nav-bar {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .lead {
+    font-size: 1.70rem;
+    font-weight: 300;
+  }
+  .h1-grande {
+    font-size: 3rem !important;
+  }
+  .container {
+    padding: 0;
+    margin: 0;
+  }
+  #imgOne {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  .imagenOne {
+    width: 520px;
+    margin-top: 15px;
+  }
   #containerOne {
-    width: 70%;
+    width: 500px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -11973,16 +11997,21 @@ fieldset:disabled .btn {
     -webkit-box-direction: reverse;
         -ms-flex-direction: column-reverse;
             flex-direction: column-reverse;
-    -ms-flex-line-pack: center;
-        align-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    margin-left: 50px;
   }
-  #nav-bar {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+  .centrar {
+    padding-left: 0 !important;
+    margin-left: 0 !important;
+    text-align: center;
+  }
+  #buttons-one {
+    width: auto;
+    height: auto;
+  }
+  #primary {
+    width: 13rem !important;
+    height: 4rem !important;
+    font-size: 1.3rem !important;
   }
 }
 /*# sourceMappingURL=style.css.map */
