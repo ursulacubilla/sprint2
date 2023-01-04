@@ -14,23 +14,23 @@ $nav-tabs-link-active-border-color: transparent white red;
 @import "./node_modules/bootstrap/scss/bootstrap.scss";
 
 
-@include media-breakpoint-between(None, md) {
+@media (min-width: 576px) {
   #nav-bar {
     display: flex;
-   
+    width: 576px;
   }
   .lead {
     font-size: 1.70rem;
     font-weight: 300;
 }
 .h1-grande {
-  font-size: 3rem !important;
+  font-size: 2.5rem !important;
 }
   .container {
     padding: 0;
     margin: 0;
   }
-  #imgOne {
+  #img-one {
     margin: 0 !important;
     padding: 0 !important;
   }
@@ -38,7 +38,7 @@ $nav-tabs-link-active-border-color: transparent white red;
     width: 520px;
     margin-top: 15px;
   }
-  #containerOne {
+  #container-one {
     width: 500px;
     display: flex;
     flex-direction: column-reverse;
@@ -49,18 +49,40 @@ $nav-tabs-link-active-border-color: transparent white red;
     margin-left: 0 !important;
     text-align: center;    
   }
-  #buttons-one {
-    width: auto;
-    height: auto;
-  }
-  #primary {
+  .primary {
     width: 13rem !important;
     height: 4rem !important;
     font-size: 1.3rem !important;
   }
-  
-  // #containerTwo {
-  //   width: 70%;
-  //   display: flex;
-  // }
+  #container-two {
+    width: 500px;
+    margin-left: 50px !important;
+    margin-top: 100px !important;
+  }
+  #container-three {
+    width: 500px;
+    
+    
+  }
+  #container-four {
+    width: 500px;
+    margin-left: 30px !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+
+  }
+  .more-info {
+    display: flex;
+    justify-content: center;
+  }
+  #container-five {
+    width: 500px;
+    margin-left: 20px !important;
+    margin-top: 70px !important;
+  }
+  #container-six {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0 !important;
+  }
 }

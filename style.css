@@ -11963,24 +11963,25 @@ fieldset:disabled .btn {
   }
 }
 
-@media (max-width: 767.98px) {
+@media (min-width: 576px) {
   #nav-bar {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    width: 576px;
   }
   .lead {
     font-size: 1.70rem;
     font-weight: 300;
   }
   .h1-grande {
-    font-size: 3rem !important;
+    font-size: 2.5rem !important;
   }
   .container {
     padding: 0;
     margin: 0;
   }
-  #imgOne {
+  #img-one {
     margin: 0 !important;
     padding: 0 !important;
   }
@@ -11988,7 +11989,7 @@ fieldset:disabled .btn {
     width: 520px;
     margin-top: 15px;
   }
-  #containerOne {
+  #container-one {
     width: 500px;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -12004,14 +12005,47 @@ fieldset:disabled .btn {
     margin-left: 0 !important;
     text-align: center;
   }
-  #buttons-one {
-    width: auto;
-    height: auto;
-  }
-  #primary {
+  .primary {
     width: 13rem !important;
     height: 4rem !important;
     font-size: 1.3rem !important;
+  }
+  #container-two {
+    width: 500px;
+    margin-left: 50px !important;
+    margin-top: 100px !important;
+  }
+  #container-three {
+    width: 500px;
+  }
+  #container-four {
+    width: 500px;
+    margin-left: 30px !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+  .more-info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #container-five {
+    width: 500px;
+    margin-left: 20px !important;
+    margin-top: 70px !important;
+  }
+  #container-six {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding-left: 0 !important;
   }
 }
 /*# sourceMappingURL=style.css.map */
