@@ -11963,12 +11963,46 @@ fieldset:disabled .btn {
   }
 }
 
-@media (min-width: 576px) {
+@media (min-width: 320px) and (max-width: 575px) {
+  html {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
   #nav-bar {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    width: 576px;
+    width: auto;
+  }
+  #container-img-one {
+    margin: 10px !important;
+    padding: 10px !important;
+  }
+  .imagenOne {
+    width: 500px;
+    margin-top: 15px;
+  }
+  #container-one {
+    width: 500px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    margin-left: 50px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+  #nav-bar {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: auto;
   }
   .lead {
     font-size: 1.70rem;
@@ -11981,7 +12015,7 @@ fieldset:disabled .btn {
     padding: 0;
     margin: 0;
   }
-  #img-one {
+  #container-img-one {
     margin: 0 !important;
     padding: 0 !important;
   }
@@ -12046,6 +12080,25 @@ fieldset:disabled .btn {
         -ms-flex-direction: column;
             flex-direction: column;
     padding-left: 0 !important;
+  }
+  .cardMobile {
+    width: 300px !important;
+    height: 400px !important;
+    margin-left: 0 !important;
+    padding-left: 0 !important;
+    border-radius: 15px !important;
+  }
+  .card-body {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .imgDownload {
+    width: 150px;
   }
 }
 /*# sourceMappingURL=style.css.map */
