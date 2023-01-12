@@ -23,19 +23,101 @@ $nav-tabs-link-active-border-color: transparent white red;
     display: flex;
     width: auto;
   }
+  .navbar-brand {
+    
+    padding-left: 0 !important;
+  }
+  .img-navbar {
+    width: 200px;
+  }
+  .lead {
+    font-size: 1.70rem;
+    font-weight: 300;
+}
+  .h1-grande {
+    font-size: 2.5rem !important;
+  }
   #container-img-one {
-    margin: 10px !important;
-    padding: 10px !important;
+    display: flex;
+    justify-content: center;
+    margin-left: 15px !important;
+    padding-left: 0 !important;
   }
   .imagenOne {
-    width: 500px;
+    width: 550px;
     margin-top: 15px;
   }
   #container-one {
     width: 500px;
     display: flex;
     flex-direction: column-reverse;
-    margin-left: 50px;
+    margin: auto;
+  }
+  .centrar {
+    padding-left: 10px !important;
+    margin-left: 10px !important;
+    text-align: center;    
+  }
+  .primary {
+    width: 13rem !important;
+    height: 4rem !important;
+    font-size: 1.3rem !important;
+  }
+  #container-two {
+    margin-top: 100px !important;
+  }
+  #ul-nabs-tabs {
+    width: 400px !important;
+  }
+  #container-four {
+    width: 500px;
+    margin-left: 30px !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+
+  }
+  .more-info {
+    display: flex;
+    justify-content: center;
+  }
+  #container-five {
+    width: 500px;
+    margin-left: 20px !important;
+    margin-top: 70px !important;
+  }
+
+  #container-six {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0 !important;
+  }
+  .cardMobile {
+    width: 300px !important;
+    height: 400px !important;
+    margin-left: 0 !important;
+    padding-left: 0 !important;
+    border-radius: 15px !important;
+  }
+  .card-body {
+    display: flex;
+    flex-direction: column;
+  }
+  .download-logo {
+    padding-left: 0 !important;
+  }
+  .download-img {
+    // width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .button-add {
+    display: flex;
+    justify-content: center;
+    width: 300px;
+  }
+  .button-add-width {
+    width: 250px;
   }
 }
 // Tablet
@@ -49,7 +131,7 @@ $nav-tabs-link-active-border-color: transparent white red;
     font-weight: 300;
 }
 .h1-grande {
-  font-size: 2.5rem !important;
+  font-size: 2rem !important;
 }
   .container {
     padding: 0;
@@ -86,15 +168,16 @@ $nav-tabs-link-active-border-color: transparent white red;
   }
   #container-three {
     width: 500px;
-    
-    
   }
   #container-four {
     width: 500px;
-    margin-left: 30px !important;
+    margin-left: 50px !important;
     padding-left: 0 !important;
     padding-right: 0 !important;
-
+    text-align: center;
+  }
+  .img-tab {
+    margin-left: 30px;
   }
   .more-info {
     display: flex;
@@ -102,7 +185,7 @@ $nav-tabs-link-active-border-color: transparent white red;
   }
   #container-five {
     width: 500px;
-    margin-left: 20px !important;
+    margin-left: 40px !important;
     margin-top: 70px !important;
   }
   #container-six {
@@ -121,7 +204,39 @@ $nav-tabs-link-active-border-color: transparent white red;
     display: flex;
     flex-direction: column;
   }
-  .imgDownload {
-    width: 150px;
+  .download-logo {
+    padding-left: 0 !important;
   }
+  .download-img {
+    // width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .button-add {
+    display: flex;
+    justify-content: center;
+    width: 300px;
+  }
+  .button-add-width {
+    width: 250px;
+  }
+  #faqs {
+    width: 70% !important;
+    margin-left: 20% !important;
+  }
+  .faqs-container {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+    margin-left: 60px;
+  }
+  #accordionFlushExample {
+    margin-top: 130px !important;
+    width: 90% !important;
+    padding-right: 0 !important;
+  }
+#faqs-p {
+  font-size: 1.1rem;
+  font-weight: 300;
+}
 }
