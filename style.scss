@@ -65,13 +65,15 @@ $nav-tabs-link-active-border-color: transparent white red;
   }
   #container-two {
     margin-top: 100px !important;
+    padding-left: 65px !important;
+    padding-right: 65px;
   }
   #ul-nabs-tabs {
     width: 400px !important;
   }
   #container-four {
     width: 500px;
-    margin-left: 30px !important;
+    margin-left: 70px !important;
     padding-left: 0 !important;
     padding-right: 0 !important;
 
@@ -82,7 +84,7 @@ $nav-tabs-link-active-border-color: transparent white red;
   }
   #container-five {
     width: 500px;
-    margin-left: 20px !important;
+    margin-left: 80px !important;
     margin-top: 70px !important;
   }
 
@@ -91,10 +93,13 @@ $nav-tabs-link-active-border-color: transparent white red;
     flex-direction: column;
     padding-left: 0 !important;
   }
+  .img-tab {
+    margin-left: 45px !important;
+  }
   .cardMobile {
     width: 300px !important;
     height: 400px !important;
-    margin-left: 0 !important;
+    margin-left: 40px !important;
     padding-left: 0 !important;
     border-radius: 15px !important;
   }
@@ -119,12 +124,35 @@ $nav-tabs-link-active-border-color: transparent white red;
   .button-add-width {
     width: 250px;
   }
+  #faqs {
+    width: 70% !important;
+    margin-left: 15% !important;
+  }
+  .faqs-container {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+    margin-left: 30px;
+  }
+  #accordionFlushExample {
+    margin-top: 130px !important;
+    width: 100% !important;
+    padding-right: 0 !important;
+  }
+#faqs-p {
+  font-size: 1.1rem;
+  font-weight: 300;
 }
+}
+
 // Tablet
-@media (min-width: 576px) and (max-width: 768px) {
+@media (min-width: 576px) and (max-width: 620px) {
   #nav-bar {
     display: flex;
-    width: auto;
+    width: 600px;
+  }
+  .navbar-brand {
+    margin-left: 0 !important;
+    padding-left: 0.5rem !important;
   }
   .lead {
     font-size: 1.70rem;
@@ -239,4 +267,264 @@ $nav-tabs-link-active-border-color: transparent white red;
   font-size: 1.1rem;
   font-weight: 300;
 }
+}
+
+@media (min-width: 621px) and (max-width: 768px) {
+  .container {
+    width: 100% !important;
+  }
+  #nav-bar {
+    display: flex;
+    width: 700px;
+  }
+  .navbar-brand {
+    margin-left: 0 !important;
+    padding-left: 0.5rem !important;
+  }
+  .lead {
+    font-size: 1.70rem;
+    font-weight: 300;
+}
+.h1-grande {
+  font-size: 2rem !important;
+}
+  .container {
+    padding: 0;
+    margin: 0;
+  }
+  #container-img-one {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  .imagenOne {
+    width: 620px;
+    margin-top: 15px;
+    
+  }
+  #container-one {
+    width: 650px;
+    display: flex;
+    flex-direction: column-reverse;
+    margin-left: 50px;
+  }
+  .centrar {
+    padding-left: 0 !important;
+    margin-left: 0 !important;
+    text-align: center;    
+  }
+  #two-features {
+    margin-left: 80px !important;
+  }
+  .primary {
+    width: 13rem !important;
+    height: 4rem !important;
+    font-size: 1.3rem !important;
+  }
+  #container-two {
+    width: 500px;
+    margin-left: 50px !important;
+    margin-top: 100px !important;
+  }
+  #container-three {
+    width: 500px;
+  }
+  .img-tab {
+    margin-left: 90px;
+  }
+  #container-four {
+    width: 500px;
+    margin-left: 120px !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    text-align: center;
+  }
+  .more-info {
+    display: flex;
+    justify-content: center;
+  }
+  #container-five {
+    width: 500px;
+    margin-left: 100px !important;
+    margin-top: 70px !important;
+  }
+  #container-six {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0 !important;
+    margin-left: 110px !important;
+  }
+  .cardMobile {
+    width: 300px !important;
+    height: 400px !important;
+    margin-left: 0 !important;
+    padding-left: 0 !important;
+    border-radius: 15px !important;
+  }
+  .card-body {
+    display: flex;
+    flex-direction: column;
+  }
+  .download-logo {
+    padding-left: 0 !important;
+  }
+  .download-img {
+    // width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .button-add {
+    display: flex;
+    justify-content: center;
+    width: 300px;
+  }
+  .button-add-width {
+    width: 250px;
+  }
+  #faqs {
+    width: 70% !important;
+    margin-left: 30% !important;
+  }
+  .faqs-container {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+   width: auto;
+  }
+  #accordionFlushExample {
+    margin-top: 130px !important;
+    width: 90% !important;
+    padding-right: 0 !important;
+  }
+#faqs-p {
+  font-size: 1.1rem;
+  font-weight: 300;
+}
+}
+
+@media (min-width: 769px) and (max-width: 1199px) {
+  #nav-bar {
+    display: flex;
+    width: 700px;
+  }
+//   .navbar-brand {
+//     margin-left: 0 !important;
+//     padding-left: 0.5rem !important;
+//   }
+//   .lead {
+//     font-size: 1.70rem;
+//     font-weight: 300;
+// }
+// .h1-grande {
+//   font-size: 2rem !important;
+// }
+//   .container {
+//     padding: 0;
+//     margin: 0;
+//   }
+//   #container-img-one {
+//     margin: 0 !important;
+//     padding: 0 !important;
+//   }
+//   .imagenOne {
+//     width: 620px;
+//     margin-top: 15px;
+    
+//   }
+//   #container-one {
+//     width: 650px;
+//     display: flex;
+//     flex-direction: column-reverse;
+//     margin-left: 50px;
+//   }
+//   .centrar {
+//     padding-left: 0 !important;
+//     margin-left: 0 !important;
+//     text-align: center;    
+//   }
+//   #two-features {
+//     margin-left: 80px !important;
+//   }
+//   .primary {
+//     width: 13rem !important;
+//     height: 4rem !important;
+//     font-size: 1.3rem !important;
+//   }
+//   #container-two {
+//     width: 500px;
+//     margin-left: 50px !important;
+//     margin-top: 100px !important;
+//   }
+//   #container-three {
+//     width: 500px;
+//   }
+//   #container-four {
+//     width: 500px;
+//     margin-left: 50px !important;
+//     padding-left: 0 !important;
+//     padding-right: 0 !important;
+//     text-align: center;
+//   }
+//   .img-tab {
+//     margin-left: 30px;
+//   }
+//   .more-info {
+//     display: flex;
+//     justify-content: center;
+//   }
+//   #container-five {
+//     width: 500px;
+//     margin-left: 40px !important;
+//     margin-top: 70px !important;
+//   }
+//   #container-six {
+//     display: flex;
+//     flex-direction: column;
+//     padding-left: 0 !important;
+//   }
+//   .cardMobile {
+//     width: 300px !important;
+//     height: 400px !important;
+//     margin-left: 0 !important;
+//     padding-left: 0 !important;
+//     border-radius: 15px !important;
+//   }
+//   .card-body {
+//     display: flex;
+//     flex-direction: column;
+//   }
+//   .download-logo {
+//     padding-left: 0 !important;
+//   }
+//   .download-img {
+//     // width: 150px;
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//   }
+//   .button-add {
+//     display: flex;
+//     justify-content: center;
+//     width: 300px;
+//   }
+//   .button-add-width {
+//     width: 250px;
+//   }
+//   #faqs {
+//     width: 70% !important;
+//     margin-left: 20% !important;
+//   }
+//   .faqs-container {
+//     margin-top: 0 !important;
+//     padding-top: 0 !important;
+//     margin-left: 60px;
+//   }
+//   #accordionFlushExample {
+//     margin-top: 130px !important;
+//     width: 90% !important;
+//     padding-right: 0 !important;
+//   }
+// #faqs-p {
+//   font-size: 1.1rem;
+//   font-weight: 300;
+// }
 }
