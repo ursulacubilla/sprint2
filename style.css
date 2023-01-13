@@ -12280,7 +12280,7 @@ fieldset:disabled .btn {
   }
 }
 
-@media (min-width: 621px) and (max-width: 768px) {
+@media (min-width: 621px) and (max-width: 767px) {
   .container {
     width: 100% !important;
   }
@@ -12322,7 +12322,7 @@ fieldset:disabled .btn {
     -webkit-box-direction: reverse;
         -ms-flex-direction: column-reverse;
             flex-direction: column-reverse;
-    margin-left: 50px;
+    margin-left: 30px;
   }
   .centrar {
     padding-left: 0 !important;
@@ -12339,7 +12339,7 @@ fieldset:disabled .btn {
   }
   #container-two {
     width: 500px;
-    margin-left: 50px !important;
+    margin-left: 10px !important;
     margin-top: 100px !important;
   }
   #container-three {
@@ -12441,12 +12441,474 @@ fieldset:disabled .btn {
   }
 }
 
-@media (min-width: 769px) and (max-width: 1199px) {
+@media (min-width: 768px) and (max-width: 850px) {
   #nav-bar {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    width: 800px;
+  }
+  .navbar-brand {
+    margin-left: 0 !important;
+    padding-left: 0.5rem !important;
+  }
+  .lead {
+    font-size: 1.70rem;
+    font-weight: 300;
+  }
+  .h1-grande {
+    font-size: 2rem !important;
+  }
+  .container {
+    padding: 0;
+    margin: 0;
+  }
+  #container-img-one {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  .imagenOne {
+    width: 720px;
+    margin-top: 15px;
+  }
+  #container-one {
+    width: 650px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    margin-left: 50px;
+  }
+  .centrar {
+    padding-left: 0 !important;
+    margin-left: 0 !important;
+    text-align: center;
+  }
+  #two-features {
+    margin-left: 80px !important;
+  }
+  .primary {
+    width: 13rem !important;
+    height: 4rem !important;
+    font-size: 1.3rem !important;
+  }
+  #container-two {
+    width: 500px;
+    margin-left: 50px !important;
+    margin-top: 100px !important;
+  }
+  #container-three {
+    width: 500px;
+  }
+  #container-four {
+    width: 500px;
+    margin-left: 150px !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    text-align: center;
+  }
+  .offset-md-3 {
+    margin-left: 20%;
+  }
+  .img-tab {
+    margin-left: 130px;
+  }
+  .more-info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #container-five {
+    width: 500px;
+    margin-left: 40px !important;
+    margin-top: 70px !important;
+  }
+  #container-six {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding-left: 0 !important;
+  }
+  .cardMobile {
+    width: 300px !important;
+    height: 400px !important;
+    margin-left: 100px !important;
+    padding-left: 0 !important;
+    border-radius: 15px !important;
+  }
+  .card-body {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .download-logo {
+    padding-left: 0 !important;
+  }
+  .download-img {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .button-add {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 300px;
+  }
+  .button-add-width {
+    width: 250px;
+  }
+  #faqs {
+    width: 70% !important;
+    margin-left: 30% !important;
+  }
+  .faqs-container {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+    margin-left: 60px;
+  }
+  #accordionFlushExample {
+    margin-top: 130px !important;
+    width: 90% !important;
+    padding-right: 0 !important;
+  }
+  #faqs-p {
+    font-size: 1.1rem;
+    font-weight: 300;
+  }
+}
+
+@media (min-width: 851px) and (max-width: 991px) {
+  #nav-bar {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 900px;
+  }
+  .navbar-brand {
+    margin-left: 0 !important;
+    padding-left: 0.5rem !important;
+  }
+  .lead {
+    font-size: 1.70rem;
+    font-weight: 300;
+  }
+  .h1-grande {
+    font-size: 2rem !important;
+  }
+  .container {
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+  #container-img-one {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  .imagenOne {
+    width: 720px;
+    margin-left: 55px;
+  }
+  #container-one {
+    width: 850px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    margin-left: 50px;
+  }
+  .centrar {
+    padding-left: 0 !important;
+    margin-left: 0 !important;
+    text-align: center;
+  }
+  #two-features {
+    margin-left: 80px !important;
+  }
+  .primary {
+    width: 13rem !important;
+    height: 4rem !important;
+    font-size: 1.3rem !important;
+  }
+  #container-two {
+    margin-top: 100px !important;
+  }
+  #container-three {
+    width: 500px;
+  }
+  #container-four {
     width: 700px;
+    margin-left: 230px !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    text-align: center;
+  }
+  .offset-md-3 {
+    margin-left: 35%;
+  }
+  .img-tab {
+    margin-left: 200px;
+  }
+  .more-info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #container-five {
+    width: 500px;
+    margin-left: 40px !important;
+    margin-top: 70px !important;
+  }
+  #container-six {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding-left: 0 !important;
+  }
+  .cardMobile {
+    width: 300px !important;
+    height: 400px !important;
+    margin-left: 255px !important;
+    padding-left: 0 !important;
+    border-radius: 15px !important;
+  }
+  .card-body {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .download-logo {
+    padding-left: 0 !important;
+  }
+  .download-img {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .button-add {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 300px;
+  }
+  .button-add-width {
+    width: 250px;
+  }
+  #faqs {
+    width: 70% !important;
+    margin-left: 30% !important;
+  }
+  .faqs-container {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+    margin-left: 60px;
+  }
+  #accordionFlushExample {
+    margin-top: 130px !important;
+    width: 90% !important;
+    padding-right: 0 !important;
+  }
+  #faqs-p {
+    font-size: 1.1rem;
+    font-weight: 300;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .navbar-brand {
+    margin-left: 0 !important;
+    padding-left: 0.5rem !important;
+  }
+  .lead {
+    font-size: 1.70rem;
+    font-weight: 300;
+  }
+  .h1-grande {
+    font-size: 2rem !important;
+  }
+  .container {
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+  #container-img-one {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  .imagenOne {
+    width: 720px;
+    margin-left: 55px;
+  }
+  #container-one {
+    width: 850px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    margin-left: 80px;
+  }
+  .centrar {
+    padding-left: 0 !important;
+    margin-left: 0 !important;
+    text-align: center;
+  }
+  #two-features {
+    margin-left: 170px !important;
+    width: 70%;
+  }
+  .primary {
+    width: 13rem !important;
+    height: 4rem !important;
+    font-size: 1.3rem !important;
+  }
+  #container-two {
+    margin-top: 100px !important;
+  }
+  #container-three {
+    width: 500px;
+  }
+  #container-four {
+    width: 700px;
+    margin-left: 230px !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    text-align: center;
+  }
+  .offset-md-3 {
+    margin-left: 300px;
+  }
+  .img-tab {
+    margin-left: 200px;
+  }
+  .more-info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #container-five {
+    width: 900px;
+    margin-top: 70px !important;
+  }
+  #container-six {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding-left: 0 !important;
+  }
+  .cardMobile {
+    width: 300px !important;
+    height: 400px !important;
+    margin-left: 290px !important;
+    padding-left: 0 !important;
+    border-radius: 15px !important;
+  }
+  .card-body {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .download-logo {
+    padding-left: 0 !important;
+  }
+  .download-img {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .button-add {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 300px;
+  }
+  .button-add-width {
+    width: 250px;
+  }
+  #faqs {
+    width: 900px !important;
+    margin-left: 10px !important;
+  }
+  .faqs-container {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+    margin-left: 60px;
+    width: 100%;
+  }
+  #accordionFlushExample {
+    margin-top: 130px !important;
+    width: 90% !important;
+    padding-right: 0 !important;
+  }
+  #faqs-p {
+    font-size: 1.1rem;
+    font-weight: 300;
   }
 }
 /*# sourceMappingURL=style.css.map */
