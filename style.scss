@@ -24,7 +24,6 @@ $nav-tabs-link-active-border-color: transparent white red;
     width: auto;
   }
   .navbar-brand {
-    
     padding-left: 0 !important;
   }
   .img-navbar {
@@ -69,14 +68,21 @@ $nav-tabs-link-active-border-color: transparent white red;
     padding-right: 65px;
   }
   #ul-nabs-tabs {
+    margin-left: 230px !important;
     width: 400px !important;
-  }
+    padding-right: 0 !important;
+   }
+   #myTab{
+     display: flex !important;
+     flex-direction: column;
+     align-items: center;
+   }
   #container-four {
     width: 500px;
-    margin-left: 70px !important;
+    margin-left: 140px !important;
     padding-left: 0 !important;
     padding-right: 0 !important;
-
+    text-align: center;
   }
   .more-info {
     display: flex;
@@ -84,7 +90,7 @@ $nav-tabs-link-active-border-color: transparent white red;
   }
   #container-five {
     width: 500px;
-    margin-left: 80px !important;
+    margin-left: 60px !important;
     margin-top: 70px !important;
   }
 
@@ -92,9 +98,10 @@ $nav-tabs-link-active-border-color: transparent white red;
     display: flex;
     flex-direction: column;
     padding-left: 0 !important;
+    margin-left: 100px !important;
   }
   .img-tab {
-    margin-left: 45px !important;
+    margin-left: 95px !important;
   }
   .cardMobile {
     width: 300px !important;
@@ -109,6 +116,7 @@ $nav-tabs-link-active-border-color: transparent white red;
   }
   .download-logo {
     padding-left: 0 !important;
+    margin-left: 0 !important;
   }
   .download-img {
     // width: 150px;
@@ -133,6 +141,12 @@ $nav-tabs-link-active-border-color: transparent white red;
     padding-top: 0 !important;
     margin-left: 30px;
   }
+  #secondary{
+    width: 13rem !important;
+    height: 4rem !important;
+    font-size: 1.3rem !important;
+    margin-top: 95px !important;
+  }
   #accordionFlushExample {
     margin-top: 130px !important;
     width: 100% !important;
@@ -146,6 +160,9 @@ $nav-tabs-link-active-border-color: transparent white red;
 
 // Tablet
 @media (min-width: 576px) and (max-width: 620px) {
+  html {
+    width: 100%;
+  }
   #nav-bar {
     display: flex;
     width: 600px;
@@ -161,10 +178,6 @@ $nav-tabs-link-active-border-color: transparent white red;
 .h1-grande {
   font-size: 2rem !important;
 }
-  .container {
-    padding: 0;
-    margin: 0;
-  }
   #container-img-one {
     margin: 0 !important;
     padding: 0 !important;
@@ -197,6 +210,14 @@ $nav-tabs-link-active-border-color: transparent white red;
   #container-three {
     width: 500px;
   }
+  #ul-nabs-tabs {
+    margin-left: 100px !important;
+   }
+   #myTab{
+     display: flex !important;
+     flex-direction: column;
+     align-items: center;
+   }
   #container-four {
     width: 500px;
     margin-left: 50px !important;
@@ -205,7 +226,7 @@ $nav-tabs-link-active-border-color: transparent white red;
     text-align: center;
   }
   .img-tab {
-    margin-left: 30px;
+    margin-left: 15px;
   }
   .more-info {
     display: flex;
@@ -213,8 +234,9 @@ $nav-tabs-link-active-border-color: transparent white red;
   }
   #container-five {
     width: 500px;
-    margin-left: 40px !important;
+    margin-left: 0px !important;
     margin-top: 70px !important;
+    padding-left: 0 !important;
   }
   #container-six {
     display: flex;
@@ -234,9 +256,9 @@ $nav-tabs-link-active-border-color: transparent white red;
   }
   .download-logo {
     padding-left: 0 !important;
+    margin-left: 0 !important;
   }
   .download-img {
-    // width: 150px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -256,7 +278,7 @@ $nav-tabs-link-active-border-color: transparent white red;
   .faqs-container {
     margin-top: 0 !important;
     padding-top: 0 !important;
-    margin-left: 60px;
+    margin-left: 35px;
   }
   #accordionFlushExample {
     margin-top: 130px !important;
@@ -270,131 +292,128 @@ $nav-tabs-link-active-border-color: transparent white red;
 }
 
 @media (min-width: 621px) and (max-width: 767px) {
-  .container {
-    width: 100% !important;
-  }
-  #nav-bar {
-    display: flex;
-    width: 700px;
-  }
-  .navbar-brand {
-    margin-left: 0 !important;
-    padding-left: 0.5rem !important;
-  }
-  .lead {
-    font-size: 1.70rem;
-    font-weight: 300;
+.container {
+  max-width: 100% !important;
+}
+.navbar-brand {
+  margin-left: 0 !important;
+  padding-left: 0.5rem !important;
+}
+.lead {
+  font-size: 1.70rem;
+  font-weight: 300;
 }
 .h1-grande {
   font-size: 2rem !important;
 }
-  .container {
-    padding: 0;
-    margin: 0;
-  }
-  #container-img-one {
-    margin: 0 !important;
-    padding: 0 !important;
-  }
-  .imagenOne {
-    width: 620px;
-    margin-top: 15px;
-    
-  }
-  #container-one {
-    width: 650px;
-    display: flex;
-    flex-direction: column-reverse;
-    margin-left: 30px;
-  }
-  .centrar {
-    padding-left: 0 !important;
-    margin-left: 0 !important;
-    text-align: center;    
-  }
-  #two-features {
-    margin-left: 80px !important;
-  }
-  .primary {
-    width: 13rem !important;
-    height: 4rem !important;
-    font-size: 1.3rem !important;
-  }
-  #container-two {
-    width: 500px;
-    margin-left: 10px !important;
-    margin-top: 100px !important;
-  }
-  #container-three {
-    width: 500px;
-  }
-  .img-tab {
-    margin-left: 90px;
-  }
-  #container-four {
-    width: 500px;
-    margin-left: 120px !important;
-    padding-left: 0 !important;
-    padding-right: 0 !important;
-    text-align: center;
-  }
-  .more-info {
-    display: flex;
-    justify-content: center;
-  }
-  #container-five {
-    width: 500px;
-    margin-left: 100px !important;
-    margin-top: 70px !important;
-  }
-  #container-six {
-    display: flex;
-    flex-direction: column;
-    padding-left: 0 !important;
-    margin-left: 110px !important;
-  }
-  .cardMobile {
-    width: 300px !important;
-    height: 400px !important;
-    margin-left: 0 !important;
-    padding-left: 0 !important;
-    border-radius: 15px !important;
-  }
-  .card-body {
-    display: flex;
-    flex-direction: column;
-  }
-  .download-logo {
-    padding-left: 0 !important;
-  }
-  .download-img {
-    // width: 150px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .button-add {
-    display: flex;
-    justify-content: center;
-    width: 300px;
-  }
-  .button-add-width {
-    width: 250px;
-  }
-  #faqs {
-    width: 70% !important;
-    margin-left: 30% !important;
-  }
-  .faqs-container {
-    margin-top: 0 !important;
-    padding-top: 0 !important;
-   width: auto;
-  }
-  #accordionFlushExample {
-    margin-top: 130px !important;
-    width: 90% !important;
-    padding-right: 0 !important;
-  }
+#container-img-one {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.imagenOne {
+  width: 620px;
+  margin-top: 15px;
+}
+#container-one {
+  width: 650px;
+  display: flex;
+  flex-direction: column-reverse;
+  margin-left: 30px;
+}
+.centrar {
+  padding-left: 0 !important;
+  margin-left: 0 !important;
+  text-align: center;    
+}
+#two-features {
+  margin-left: 80px !important;
+}
+.primary {
+  width: 13rem !important;
+  height: 4rem !important;
+  font-size: 1.3rem !important;
+}
+#container-two {
+  width: 500px;
+  margin-left: 10px !important;
+  margin-top: 100px !important;
+}
+#container-three {
+  width: 500px;
+}
+#ul-nabs-tabs {
+ margin-left: 150px !important;
+}
+#myTab{
+  display: flex !important;
+  flex-direction: column;
+  align-items: center;
+}
+.img-tab {
+  margin-left: 70px;
+}
+#container-four {
+  width: 500px;
+  margin-left: 120px !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  text-align: center;
+}
+.more-info {
+  display: flex;
+  justify-content: center;
+}
+#container-five {
+  width: 500px;
+  margin-left: 30px !important;
+}
+#container-six {
+  display: flex;
+  flex-direction: column;
+  padding-left: 0 !important;
+  margin-left: 110px !important;
+}
+.cardMobile {
+  width: 300px !important;
+  height: 400px !important;
+  margin-left: 0 !important;
+  padding-left: 0 !important;
+  border-radius: 15px !important;
+}
+.card-body {
+  display: flex;
+  flex-direction: column;
+}
+.download-logo {
+  padding-left: 0 !important;
+}
+.download-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.button-add {
+  display: flex;
+  justify-content: center;
+  width: 300px;
+}
+.button-add-width {
+  width: 250px;
+}
+#faqs {
+  width: 400px !important;
+  margin-left: 140px!important;
+}
+.faqs-container {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+  margin-left: 45px;
+}
+#accordionFlushExample {
+  margin-top: 130px !important;
+  width: 90% !important;
+  padding-right: 0 !important;
+}
 #faqs-p {
   font-size: 1.1rem;
   font-weight: 300;
@@ -402,6 +421,7 @@ $nav-tabs-link-active-border-color: transparent white red;
 }
 
 @media (min-width: 768px) and (max-width: 850px) {
+
   #nav-bar {
     display: flex;
     width: 800px;
@@ -580,7 +600,6 @@ $nav-tabs-link-active-border-color: transparent white red;
     font-size: 1.3rem !important;
   }
   #container-two {
-    // width: 700px;
     margin-top: 100px !important;
   }
   #container-three {

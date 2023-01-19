@@ -12030,13 +12030,28 @@ fieldset:disabled .btn {
     padding-right: 65px;
   }
   #ul-nabs-tabs {
+    margin-left: 230px !important;
     width: 400px !important;
+    padding-right: 0 !important;
+  }
+  #myTab {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   #container-four {
     width: 500px;
-    margin-left: 70px !important;
+    margin-left: 140px !important;
     padding-left: 0 !important;
     padding-right: 0 !important;
+    text-align: center;
   }
   .more-info {
     display: -webkit-box;
@@ -12048,7 +12063,7 @@ fieldset:disabled .btn {
   }
   #container-five {
     width: 500px;
-    margin-left: 80px !important;
+    margin-left: 60px !important;
     margin-top: 70px !important;
   }
   #container-six {
@@ -12060,9 +12075,10 @@ fieldset:disabled .btn {
         -ms-flex-direction: column;
             flex-direction: column;
     padding-left: 0 !important;
+    margin-left: 100px !important;
   }
   .img-tab {
-    margin-left: 45px !important;
+    margin-left: 95px !important;
   }
   .cardMobile {
     width: 300px !important;
@@ -12082,6 +12098,7 @@ fieldset:disabled .btn {
   }
   .download-logo {
     padding-left: 0 !important;
+    margin-left: 0 !important;
   }
   .download-img {
     display: -webkit-box;
@@ -12115,6 +12132,12 @@ fieldset:disabled .btn {
     padding-top: 0 !important;
     margin-left: 30px;
   }
+  #secondary {
+    width: 13rem !important;
+    height: 4rem !important;
+    font-size: 1.3rem !important;
+    margin-top: 95px !important;
+  }
   #accordionFlushExample {
     margin-top: 130px !important;
     width: 100% !important;
@@ -12127,6 +12150,9 @@ fieldset:disabled .btn {
 }
 
 @media (min-width: 576px) and (max-width: 620px) {
+  html {
+    width: 100%;
+  }
   #nav-bar {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -12143,10 +12169,6 @@ fieldset:disabled .btn {
   }
   .h1-grande {
     font-size: 2rem !important;
-  }
-  .container {
-    padding: 0;
-    margin: 0;
   }
   #container-img-one {
     margin: 0 !important;
@@ -12185,6 +12207,21 @@ fieldset:disabled .btn {
   #container-three {
     width: 500px;
   }
+  #ul-nabs-tabs {
+    margin-left: 100px !important;
+  }
+  #myTab {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
   #container-four {
     width: 500px;
     margin-left: 50px !important;
@@ -12193,7 +12230,7 @@ fieldset:disabled .btn {
     text-align: center;
   }
   .img-tab {
-    margin-left: 30px;
+    margin-left: 15px;
   }
   .more-info {
     display: -webkit-box;
@@ -12205,8 +12242,9 @@ fieldset:disabled .btn {
   }
   #container-five {
     width: 500px;
-    margin-left: 40px !important;
+    margin-left: 0px !important;
     margin-top: 70px !important;
+    padding-left: 0 !important;
   }
   #container-six {
     display: -webkit-box;
@@ -12236,6 +12274,7 @@ fieldset:disabled .btn {
   }
   .download-logo {
     padding-left: 0 !important;
+    margin-left: 0 !important;
   }
   .download-img {
     display: -webkit-box;
@@ -12267,7 +12306,7 @@ fieldset:disabled .btn {
   .faqs-container {
     margin-top: 0 !important;
     padding-top: 0 !important;
-    margin-left: 60px;
+    margin-left: 35px;
   }
   #accordionFlushExample {
     margin-top: 130px !important;
@@ -12282,13 +12321,7 @@ fieldset:disabled .btn {
 
 @media (min-width: 621px) and (max-width: 767px) {
   .container {
-    width: 100% !important;
-  }
-  #nav-bar {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    width: 700px;
+    max-width: 100% !important;
   }
   .navbar-brand {
     margin-left: 0 !important;
@@ -12300,10 +12333,6 @@ fieldset:disabled .btn {
   }
   .h1-grande {
     font-size: 2rem !important;
-  }
-  .container {
-    padding: 0;
-    margin: 0;
   }
   #container-img-one {
     margin: 0 !important;
@@ -12345,8 +12374,23 @@ fieldset:disabled .btn {
   #container-three {
     width: 500px;
   }
+  #ul-nabs-tabs {
+    margin-left: 150px !important;
+  }
+  #myTab {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
   .img-tab {
-    margin-left: 90px;
+    margin-left: 70px;
   }
   #container-four {
     width: 500px;
@@ -12365,8 +12409,7 @@ fieldset:disabled .btn {
   }
   #container-five {
     width: 500px;
-    margin-left: 100px !important;
-    margin-top: 70px !important;
+    margin-left: 30px !important;
   }
   #container-six {
     display: -webkit-box;
@@ -12422,13 +12465,13 @@ fieldset:disabled .btn {
     width: 250px;
   }
   #faqs {
-    width: 70% !important;
-    margin-left: 30% !important;
+    width: 400px !important;
+    margin-left: 140px !important;
   }
   .faqs-container {
     margin-top: 0 !important;
     padding-top: 0 !important;
-    width: auto;
+    margin-left: 45px;
   }
   #accordionFlushExample {
     margin-top: 130px !important;
