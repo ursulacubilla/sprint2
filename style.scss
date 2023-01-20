@@ -16,8 +16,13 @@ $nav-tabs-link-active-border-color: transparent white red;
 
 @media (min-width: 320px) and (max-width: 575px) {
   html {
-    width: 100%;
+    width: auto;
     display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  .container {
+    width: 100%;
   }
   #nav-bar {
     display: flex;
@@ -292,9 +297,17 @@ $nav-tabs-link-active-border-color: transparent white red;
 }
 
 @media (min-width: 621px) and (max-width: 767px) {
-.container {
-  max-width: 100% !important;
-}
+  html {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  #nav-bar {
+    width: auto;
+  }
+  .container {
+    margin: 0 !important;
+  }
 .navbar-brand {
   margin-left: 0 !important;
   padding-left: 0.5rem !important;
@@ -313,12 +326,13 @@ $nav-tabs-link-active-border-color: transparent white red;
 .imagenOne {
   width: 620px;
   margin-top: 15px;
+  margin-left: 25px;
 }
 #container-one {
   width: 650px;
   display: flex;
   flex-direction: column-reverse;
-  margin-left: 30px;
+  margin-left: 15px;
 }
 .centrar {
   padding-left: 0 !important;
@@ -350,11 +364,11 @@ $nav-tabs-link-active-border-color: transparent white red;
   align-items: center;
 }
 .img-tab {
-  margin-left: 70px;
+  margin-left: 50px;
 }
 #container-four {
   width: 500px;
-  margin-left: 120px !important;
+  margin-left: 90px !important;
   padding-left: 0 !important;
   padding-right: 0 !important;
   text-align: center;
@@ -386,6 +400,7 @@ $nav-tabs-link-active-border-color: transparent white red;
 }
 .download-logo {
   padding-left: 0 !important;
+  margin-left: 20px !important;
 }
 .download-img {
   display: flex;
@@ -404,10 +419,10 @@ $nav-tabs-link-active-border-color: transparent white red;
   width: 400px !important;
   margin-left: 140px!important;
 }
-.faqs-container {
+.faqs-container { 
   margin-top: 0 !important;
   padding-top: 0 !important;
-  margin-left: 45px;
+  margin-left: 75px;
 }
 #accordionFlushExample {
   margin-top: 130px !important;
@@ -421,7 +436,7 @@ $nav-tabs-link-active-border-color: transparent white red;
 }
 
 @media (min-width: 768px) and (max-width: 850px) {
-
+// Esto no esta funcionando bien, ajustar
   #nav-bar {
     display: flex;
     width: 800px;

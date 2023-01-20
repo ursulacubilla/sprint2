@@ -11965,10 +11965,15 @@ fieldset:disabled .btn {
 
 @media (min-width: 320px) and (max-width: 575px) {
   html {
-    width: 100%;
+    width: auto;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  .container {
+    width: 100%;
   }
   #nav-bar {
     display: -webkit-box;
@@ -12320,8 +12325,16 @@ fieldset:disabled .btn {
 }
 
 @media (min-width: 621px) and (max-width: 767px) {
+  html {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  #nav-bar {
+    width: auto;
+  }
   .container {
-    max-width: 100% !important;
+    margin: 0 !important;
   }
   .navbar-brand {
     margin-left: 0 !important;
@@ -12341,6 +12354,7 @@ fieldset:disabled .btn {
   .imagenOne {
     width: 620px;
     margin-top: 15px;
+    margin-left: 25px;
   }
   #container-one {
     width: 650px;
@@ -12351,7 +12365,7 @@ fieldset:disabled .btn {
     -webkit-box-direction: reverse;
         -ms-flex-direction: column-reverse;
             flex-direction: column-reverse;
-    margin-left: 30px;
+    margin-left: 15px;
   }
   .centrar {
     padding-left: 0 !important;
@@ -12390,11 +12404,11 @@ fieldset:disabled .btn {
             align-items: center;
   }
   .img-tab {
-    margin-left: 70px;
+    margin-left: 50px;
   }
   #container-four {
     width: 500px;
-    margin-left: 120px !important;
+    margin-left: 90px !important;
     padding-left: 0 !important;
     padding-right: 0 !important;
     text-align: center;
@@ -12440,6 +12454,7 @@ fieldset:disabled .btn {
   }
   .download-logo {
     padding-left: 0 !important;
+    margin-left: 20px !important;
   }
   .download-img {
     display: -webkit-box;
@@ -12471,7 +12486,7 @@ fieldset:disabled .btn {
   .faqs-container {
     margin-top: 0 !important;
     padding-top: 0 !important;
-    margin-left: 45px;
+    margin-left: 75px;
   }
   #accordionFlushExample {
     margin-top: 130px !important;
